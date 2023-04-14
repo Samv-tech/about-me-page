@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed&display=swap');
+
+*{
+    
+    margin: 0PX;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+    color: bisque;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.wrapper{
+    min-height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(crowd.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.testimonial{
+    padding: 30px 100px;
+}
+article h1{
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+article h1:after{
+    content: "";
+    height: 5px;
+    width: 225px;
+    background-color: beige;
+    display: block;
+    margin: auto;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    border: 1px;
+    border-radius: 50px;
+    margin-top: 60px;
+}
+
+blockquote{
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+h3{
+    text-transform: uppercase;
+    font-size: 27px;
+    margin-top: 30px;
+}
